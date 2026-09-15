@@ -58,7 +58,7 @@ img{
 }
 img:hover {
     border: 2px dashed navy;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 article{
