@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body
+{
+    background-color: rgb(235, 221, 94);
+    font-family: "Oswald", sans-serif;
+}
+h1 {
+    color:gray;
+    font-family: "Oswald", sans-serif;
+}
+nav ul {
+    background-color: rgb(208, 215, 17);
+    border: solid 2px seashell;
+    padding: 15px;
+    border-radius: 10px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 5px;
+    margin-left: 10px;
+    color: PapayaWhip;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li a:hover {
+    color:rgb(215, 147, 19);
+}
+.blue{
+    background-color: blue;
+    color: azure;
+    padding: 8px;
+}
+.red {
+    background-color:red;
+    color: azure;
+    padding: 8px;
+}
+.green{
+    background-color: green;
+    color: azure;
+    padding: 8px;
+}
+
+mark{
+    background-color: rgb(215, 147, 19);
+}
+
+img{
+    margin: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+}
+img:hover {
+    border: 2px dashed navy;
+}
+
+article{
+    border-radius: 10px;
+    background-color: rgb(206, 195, 74);
+    padding: 20px;
+}
+.sectionSpacing {
+    padding: 10px;
+    margin-top: 20px;
+}
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+p {
+    color: red;
+}
+h2 {
+    color: slateblue;
+}
+
+.solid {
+    border-top: 2px solid #fff ;
+}
+footer {
+    background-color: rgb(211, 211, 50);
+    padding: 15px;
+    text-align: center;
+}
+table {
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+}
+td,
+th {
+    /* border: 1px solid #4a4a4a; */
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(251, 200, 155);
+}
